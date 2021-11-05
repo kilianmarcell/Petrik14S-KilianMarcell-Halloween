@@ -1,0 +1,10 @@
+{
+    "name": "marcell/composer_halloween",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Marcell\\ComposerHalloween\\": "src/"
+        }
+    },
+    "require": {}
+}
