@@ -1,6 +1,8 @@
 <?php
 
 namespace Petrik14S\KilianMarcell\Halloween\Models;
+
+use Petrik14S\KilianMarcell\Halloween\Models\Lako;
 use DateTime;
 
 class Esemeny {
@@ -22,7 +24,7 @@ class Esemeny {
     }
 
     public function getSzerzo() {
-        return $this -> szerzo;
+        return $this -> szerzo -> getNev();
     }
 
     public function getResztvevok() {
@@ -30,7 +32,7 @@ class Esemeny {
     }
 
     public function getIdo() {
-        return $this -> ido;
+        return $this -> ido -> format('Y-m-d');
     }
 
 }

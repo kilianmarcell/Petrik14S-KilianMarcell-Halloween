@@ -36,11 +36,18 @@ $esemeny = new Esemeny("Kati", $lako, $resztvevok, new DateTime());
         echo $lako4 -> getNev();
         echo "</br>";
         echo $lako5 -> getNev();
+        echo "</br>";
+        echo "</br>";
 
-        echo $esemeny -> getResztvevok();
+        
+        //foreach( $esemeny -> getResztvevok() as $i ) {
+        //    echo $i;
+        //}
         echo $esemeny -> getNev();
+        echo "</br>";
+        echo $esemeny -> getSzerzo();
+        echo "</br>";
         echo $esemeny -> getIdo();
-        echo $esemeny -> getResztvevok();
 
     ?>
 </body>
