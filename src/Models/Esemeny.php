@@ -1,6 +1,7 @@
 <?php
 
 namespace Petrik14S\KilianMarcell\Halloween\Models;
+use DateTime;
 
 class Esemeny {
 
