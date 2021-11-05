@@ -1,5 +1,7 @@
 <?php
 
+namespace Petrik14S\KilianMarcell\Halloween\Models;
+
 class Esemeny {
 
     private $nev;
